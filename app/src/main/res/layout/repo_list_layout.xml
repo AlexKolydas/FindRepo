@@ -7,7 +7,7 @@
     android:layout_height="50dp">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/repoImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,6 +23,6 @@
         android:text="@string/project_name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/repoImageView"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
